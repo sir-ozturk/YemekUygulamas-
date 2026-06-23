@@ -4,12 +4,15 @@
 <html>
 <head runat="server">
     <title>Yemek Uygulaması</title>
+    <link href="Kullanici.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style2 {
             width: 140px;
             text-align: center;
+            background-color: #ea9e9e;
         }
 
         .auto-style3 {
@@ -23,7 +26,7 @@
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171"></div>
         <div style="height: 20px; width: 700px; margin-left: 300px;"></div>
 
-        <div style="margin-left: 300px; width: 700px; height: 47px; background-color: #ce7171">
+        <div style="margin-left: 300px; width: 700px; height: 47px; background-color: #ffff">
             <table style="width: 100%; height: 100%;">
                 <tr>
                     <td class="auto-style2"><strong><a href="Anasayfa.aspx">ANA SAYFA</a></strong></td>
